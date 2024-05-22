@@ -1,0 +1,15 @@
+.v-btn {
+  &.main-button {
+    @apply bg-cinnabar text-white;
+  }
+
+  &.button-outlined:hover {
+    .v-btn__content {
+      @apply text-cinnabar;
+    }
+  }
+
+  &__content {
+    @apply font-bold normal-case tracking-normal;
+  }
+}
